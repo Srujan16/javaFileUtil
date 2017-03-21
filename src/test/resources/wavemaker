@@ -1,0 +1,48 @@
+Remote repos :
+	1) Wavemaker-Studio-Enterprise [studio-saas]
+	2) Wavemaker-Studio
+	3) Wavemaker-Studio-saas-artifacts
+	4) Wavemaker-studio/wavemaker-studio-app-build-tools
+	5) Wavemaker-studio/wavemaker-studio-app-run-time
+	6) Wavemaker-studio/wavemaker-studio-commons
+	7) Wavemaker-studio/wavemaker-studio-artifacts
+
+
+saas-studio-tomcat - port :9080 debugging-port :3456
+apps-tomcat -	     port :10080 debugging-port :4567
+desktop-studop 	     port :8080 debuggin-port :8001
+
+
+
+Diff between saas-Client and saas-server???
+
+
+Wavemaker-Studio-Enterprise/build-helpers/dev-script/resources/
+
+
+	app-tomcat 
+		server.xml
+		tomcat_users.xml
+		apps_tomcat_setenv.sh
+		managers,static_files
+		catalina.properties
+		shortcuts
+
+	saas-studio-tomcat
+		server.xml
+		tomcat_users.xml
+		setenv.sh
+		remote-studio.xml
+		studio.xml
+		manager.xml
+
+	desktop-studio
+		server.xml
+		tomcat-users.xml
+		wavemaker.xml, manager.xml
+		desktop_studio_tomcat_setenv.sh
+	
+
+
+Maven-ant-runplugin :
+	
